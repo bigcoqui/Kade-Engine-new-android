@@ -97,7 +97,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 				
       case 'meri':
-        tex = Paths.getSparrowAtlas('meri_assets', 'shared', true);
+        tex = Paths.getSparrowAtlas('Meri_assets', 'shared', true);
         frames = tex;
         
         animation.addByPrefix('idle', 'Meri Idle', 24, false);
